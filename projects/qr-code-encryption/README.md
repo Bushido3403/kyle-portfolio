@@ -27,10 +27,3 @@ at `/decrypt` reads the encrypted payload from the URL and reverses the process.
 - Reads encrypted payload from the URL query string on page load
 - Reconstructs the key material (salt + IV extraction from the raw bytes), re-derives the AES key, and decrypts in-browser — the server never sees the plaintext or the key
 
-## Cube Services relevance
-
-This project demonstrates:
-- PHP hosting and page structure (classic server-side template pattern)
-- HTML5, CSS, and JavaScript: responsive layout, form handling, Canvas API, async/await, `fetch`-style patterns
-- Security-minded thinking applied to a real UX problem — the encryption and decryption happen entirely client-side, so the server cannot be compelled to reveal user data
-- Attention to edge cases (data-too-large detection, binary search trimming, error messages)

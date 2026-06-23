@@ -80,12 +80,9 @@ server-side via a Backend-for-Frontend; sessions are stored in `HttpOnly`, `Secu
 - **Styling:** Tailwind CSS v4
 - **Hardware clients:** ESP32 / nRF52832 gateways running custom C firmware
 
-## What this demonstrates for Cube Services
+## Background
 
-Cube Services builds and maintains REST APIs, internal web tools, and database-backed
-applications. This project shows experience with all of those at production scale:
-
-- Writing structured API endpoints with proper authentication and input validation
-- Managing sessions and security controls server-side
-- Working with a database (Postgres) through an ORM with multi-tenant access rules
-- Shipping to production (Vercel) with real hardware clients depending on the API uptime
+The full application covers REST API design, multi-tenant database access, passkey
+authentication, and client-side session management — all running in production with real
+ESP32/nRF gateways depending on the API. The samples here are the parts most likely to
+be useful for general web backend work.

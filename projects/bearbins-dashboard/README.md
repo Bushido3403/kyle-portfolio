@@ -4,8 +4,6 @@ A lightweight data viewer for BLE telemetry packets from Bear Bins field units â
 sensors deployed on waste and recycling assets. The dashboard fetches paginated records from
 a REST API and renders them in a filterable table.
 
-**Live API:** `https://api.bearbins.nodifyr.io`
-
 ## What to look at
 
 | File | What it shows |
@@ -27,11 +25,3 @@ a REST API and renders them in a filterable table.
 selectors â€” no preprocessor, no utility classes. The sticky header, monospace columns,
 and badge component are all ~80 lines total.
 
-## Cube Services relevance
-
-Cube Services builds and maintains internal tools and data dashboards. This project
-shows the ability to:
-- Build a functional data viewer from scratch with HTML, CSS, and vanilla JavaScript
-- Consume a REST API and handle pagination, errors, and empty states
-- Write clean, readable front-end code without reaching for a framework
-- Apply basic security hygiene (XSS escaping) as a default habit, not an afterthought

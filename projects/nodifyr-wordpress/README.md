@@ -34,13 +34,6 @@ surfaces the pricing model, and captures pilot program interest. It integrates w
 same domain infrastructure as the Next.js app (`app.nodifyr.io`) and the MkDocs technical
 docs (`docs.nodifyr.io`).
 
-## Why this matters for Cube Services
-
-Cube Services maintains legacy WordPress systems alongside modern applications. This site
-demonstrates the same mix: WordPress content management and routine upkeep, coordinated
-with an actively developed backend. The workflow — edit page, test on staging, clear cache,
-verify in Site Kit — maps directly to the kind of daily maintenance your team does.
-
 ## Screenshots
 
 ### Homepage — Hero
