@@ -1,4 +1,4 @@
-# Kyle Buchanan — Web Developer Portfolio
+# Kyle Buchanan — Web Engineer Portfolio
  
 **Location:** Reno, Nevada  
 **Email:** kyleshooked@gmail.com  
